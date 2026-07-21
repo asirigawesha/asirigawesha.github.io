@@ -1,0 +1,22 @@
+title: Your Name
+email: your.email@example.com
+description: >
+  Personal portfolio and academic page
+baseurl: ""
+url: "https://asirigawesha.github.io"
+github_username: asirigawesha
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+  publications:
+    output: true
+  workshops:
+    output: true
